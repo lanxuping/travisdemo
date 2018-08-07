@@ -1,3 +1,3 @@
 language: objective-c
-script:xcodebuild test -project jenkinsTest.xcodeproj -scheme jenkinsTestTests -destination 'platform=iOS Simulator,name=iPhone 6s'
-~
+xcode_project: travisDemo.xcodeproj # path to your xcodeproj folder
+xcode_scheme: travisDemoTests
