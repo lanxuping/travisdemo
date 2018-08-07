@@ -14,6 +14,7 @@
 		71F81DA32119A36E00D3DED6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F81DA12119A36E00D3DED6 /* LaunchScreen.storyboard */; };
 		71F81DA62119A36E00D3DED6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F81DA52119A36E00D3DED6 /* main.m */; };
 		71F81DB02119A36E00D3DED6 /* travisDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F81DAF2119A36E00D3DED6 /* travisDemoTests.m */; };
+		71F81DBC2119A38400D3DED6 /* Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F81DBB2119A38400D3DED6 /* Demo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		71F81DAB2119A36E00D3DED6 /* travisDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = travisDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F81DAF2119A36E00D3DED6 /* travisDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = travisDemoTests.m; sourceTree = "<group>"; };
 		71F81DB12119A36E00D3DED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71F81DBA2119A38400D3DED6 /* Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo.h; sourceTree = "<group>"; };
+		71F81DBB2119A38400D3DED6 /* Demo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				71F81D972119A36E00D3DED6 /* AppDelegate.m */,
 				71F81D992119A36E00D3DED6 /* ViewController.h */,
 				71F81D9A2119A36E00D3DED6 /* ViewController.m */,
+				71F81DBA2119A38400D3DED6 /* Demo.h */,
+				71F81DBB2119A38400D3DED6 /* Demo.m */,
 				71F81D9C2119A36E00D3DED6 /* Main.storyboard */,
 				71F81D9F2119A36E00D3DED6 /* Assets.xcassets */,
 				71F81DA12119A36E00D3DED6 /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 			files = (
 				71F81D9B2119A36E00D3DED6 /* ViewController.m in Sources */,
 				71F81DA62119A36E00D3DED6 /* main.m in Sources */,
+				71F81DBC2119A38400D3DED6 /* Demo.m in Sources */,
 				71F81D982119A36E00D3DED6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y77Y339G4T;
 				INFOPLIST_FILE = travisDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ok.travisDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -374,6 +381,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y77Y339G4T;
 				INFOPLIST_FILE = travisDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ok.travisDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

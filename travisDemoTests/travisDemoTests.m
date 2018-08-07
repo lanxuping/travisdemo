@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-
+#import "Demo.h"
 @interface travisDemoTests : XCTestCase
 
 @end
@@ -25,6 +25,8 @@
 }
 
 - (void)testExample {
+    int i = [Demo returnNumber];
+    XCTAssertTrue(i == 1);
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
