@@ -1,3 +1,6 @@
 language: objective-c
-xcode_project: travisDemo.xcodeproj # path to your xcodeproj folder
-xcode_scheme: travisDemoTests
+#xcode_project: travisDemo.xcodeproj # path to your xcodeproj folder
+#xcode_scheme: travisDemoTests
+script: xcodebuild test -project travisDemo.xcodeproj -scheme travisDemoTests -destination 'platform=iOS Simulator,name=iPhone 6s'
+#script: true
+
