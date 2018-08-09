@@ -19,6 +19,7 @@
     NSLog(@"12312312312");
     NSLog(@"gogogo");
     NSLog(@"再次测试pr才test");
+    NSLog(@"修改travis后台的settings，将push选项关闭");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
