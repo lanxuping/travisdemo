@@ -18,6 +18,7 @@
     [super viewDidLoad];
     NSLog(@"12312312312");
     NSLog(@"gogogo");
+    NSLog(@"再次测试pr才test");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
